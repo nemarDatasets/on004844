@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "T22",
+  "description": "The TX22 dataset investigates real-time prediction and management of trust-based decisions during simulated semi-automated driving in a leader-follower paradigm. This neuroimaging study examines how operators' trust in autonomous vehicle systems can be predicted and influenced through targeted feedback interventions, with the goal of resolving discrepancies between perceived trust and actual system trustworthiness to optimize joint human-automation performance.",
+  "methods_description": "Data were collected during simulated semi-automated driving tasks in a leader-follower paradigm. Participants made trust-based decisions regarding control authority hand-off and take-over, with real-time predictions of intervention necessity and feedback mechanisms designed to support trust management.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,12 +24,51 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004844.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "trust"
     },
+    {
+      "term": "autonomous vehicles"
+    },
+    {
+      "term": "human-automation interaction"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "workload"
+    },
+    {
+      "term": "semi-automated driving"
+    },
+    {
+      "term": "vehicle automation"
+    },
+    {
+      "term": "feedback intervention"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "automation reliability"
+    },
+    {
+      "term": "control authority hand-off"
+    },
+    {
+      "term": "take-over"
+    },
+    {
+      "term": "real-time prediction"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004844",
       "identifier_type": "URL",
@@ -42,69 +83,11 @@
       "identifier": "10.18112/openneuro.ds004844",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "The TX22 dataset investigates real-time prediction and management of trust-based decisions in human-automation interaction during simulated semi-automated driving. Using a leader-follower paradigm, this study explores methods to predict instances requiring driver intervention and employs predictive feedback mechanisms to influence trust calibration and support effective joint human-automation system performance in military vehicle operations.",
-  "methods_description": "Data were collected during simulated semi-automated driving tasks in a leader-follower paradigm. Participants made trust-based decisions regarding control authority hand-off and take-over, with real-time predictions of intervention necessity and feedback mechanisms designed to support trust management.",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "trust calibration"
-    },
-    {
-      "term": "human-automation interaction"
-    },
-    {
-      "term": "semi-automated driving"
-    },
-    {
-      "term": "decision prediction"
-    },
-    {
-      "term": "workload assessment"
-    },
-    {
-      "term": "military vehicle operations"
-    },
-    {
-      "term": "automation reliability"
-    },
-    {
-      "term": "intervention prediction"
-    },
-    {
-      "term": "leader-follower paradigm"
-    },
-    {
-      "term": "trust management"
-    },
-    {
-      "term": "control authority hand-off"
-    },
-    {
-      "term": "autonomous vehicles"
-    },
-    {
-      "term": "cognitive workload"
-    },
-    {
-      "term": "defense research"
+      "identifier": "10.18112/openneuro.ds004844.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -113,5 +96,20 @@
       "award_number": "ARL_TX22"
     }
   ],
-  "source_hash": "bd0846f3083d7cc4083d1764ac09fb755e7fb99e9a43d888ac28c400dfbd06a6"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "24.0 GB (137 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "d715e6e0b5118efb7dd0304838ebff4264d454702b2d1633362d9008aabc16de"
 }
