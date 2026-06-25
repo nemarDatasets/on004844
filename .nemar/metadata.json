@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004844",
+  "source": "openneuro",
+  "source_id": "ds004844",
+  "title": "T22",
+  "authors": {
+    "Jason S. Metcalfe": {},
+    "Victor Paul": {},
+    "Benamin Haynes": {},
+    "Corey Atwater": {},
+    "Amar Marathe": {},
+    "Gregory Gremillion": {},
+    "Kim Drnec": {},
+    "William Nothwang": {},
+    "Justin R. Estepp": {},
+    "Margaret Bowers": {},
+    "Jamie Lukos": {},
+    "Tony Johnson": {},
+    "Mike Dunkel": {},
+    "Stephen Gordon": {},
+    "Jon Touryan": {},
+    "Kevin King": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004844.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
