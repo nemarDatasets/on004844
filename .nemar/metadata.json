@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "T22",
-  "description": "The TX22 dataset investigates real-time prediction and management of trust-based decisions during simulated semi-automated driving in a leader-follower paradigm. This neuroimaging study examines how operators' trust in autonomous vehicle systems can be predicted and influenced through targeted feedback interventions, with the goal of resolving discrepancies between perceived trust and actual system trustworthiness to optimize joint human-automation performance.",
-  "methods_description": "Data were collected during simulated semi-automated driving tasks in a leader-follower paradigm. Participants made trust-based decisions regarding control authority hand-off and take-over, with real-time predictions of intervention necessity and feedback mechanisms designed to support trust management.",
+  "description": "EEG dataset (TX22) from a simulated, semi-automated driving experiment using a leader-follower paradigm. It examines trust-based decisions about handing off and taking over control authority. The study tests whether real-time predictions of when intervention is needed can be used to give the driver feedback that supports active trust management. It builds on an earlier experiment (ARL_TX20) that used the same paradigm.",
+  "methods_description": "Participants performed simulated semi-automated driving in a leader-follower paradigm, deciding when to hand off or take over control authority. The design reused the paradigm from the earlier ARL_TX20 experiment. Predictions of when intervention was needed were used to provide feedback to the driver.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,56 +26,29 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "trust"
-    },
-    {
-      "term": "autonomous vehicles"
-    },
-    {
-      "term": "human-automation interaction"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "workload"
     },
     {
       "term": "semi-automated driving"
     },
     {
-      "term": "vehicle automation"
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     },
     {
-      "term": "feedback intervention"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "automation reliability"
+      "term": "human-automation interaction"
     },
     {
       "term": "control authority hand-off"
-    },
-    {
-      "term": "take-over"
-    },
-    {
-      "term": "real-time prediction"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004844",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004844",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -88,6 +61,11 @@
       "identifier": "10.18112/openneuro.ds004844.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004844",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -101,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.0 GB (137 files)"
+    "22.33 GB (137 files)"
   ],
   "formats": [
     ".fdt",
